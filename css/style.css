@@ -1,0 +1,144 @@
+       /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+        /*global styles */
+        * {
+            /* #2 #font #faces */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+
+        h1 {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+
+        
+        button, strong {
+            /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+            text-transform: uppercase;
+        }
+        /* This is  css for the images in the new,trending and favorities button */
+        .appBarButton img {
+            display: block;
+            margin: auto;
+            padding: 4px;
+
+
+        }
+        /* This is  css for the new, trending and favorites button */
+        .appBarButton {
+            /* #2 #colourful #plusfive */
+            background-color: white;
+            color: black;
+            border: none;
+            font-size: 13px;
+            width: 33%;
+            height:72px;
+            padding: 16px;
+
+        }
+
+        /* This is  css for the highlighted channel */
+        li.selected {
+            border-left: solid #3F51B5 4px;
+            color: #3F51B5;
+
+        }
+                /* This is  css for the highlighted button */
+        button.selected {
+            border-bottom: solid #3F51B5 4px;
+            color: #3F51B5;
+
+        }
+
+
+
+
+
+        /*styles for channel area*/
+        li {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+            padding: 16px;
+            font-size: 16px;
+            height: 48px;
+            border: solid  lightgray 1px;
+        }
+
+
+        /*styles for chat area*/
+        p {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+        }
+
+
+        h3 {
+            /* #2 #font #metadata is now medium */
+            font-size: medium;
+        }
+
+        em {
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+        }
+        div {
+            width: 80%;
+        }
+        a {
+            color: black
+        }
+
+        /*styles for message area*/
+
+        /* This is  css for the whole  message */
+        .message{
+            width: 80%;
+            margin-left: 2.5%;
+            margin-bottom: 8px;
+        }
+        /* This is  css for the w3w words  message */
+        
+        .message strong{
+            font-size: medium;
+        }
+        /* This is  css for the content of the  message */
+        .message p{
+            background-color: white;
+            padding: 16px;
+        }
+        /* This is  css for the time left in the  message */
+        .message em {
+            font-size: larger;
+            font-style: normal;
+        }
+/* This is the css for the +5mim buttons in the css*/
+        .message button{
+            background-color: #CDDC39;
+            color: black;
+            text-transform: uppercase;
+        }
+/* This is the css for my own messages*/
+        .OwnMessage{
+            width: 80%;
+            margin-left: 17.5%;
+            margin-bottom: 8px;
+        }
+
+   
